@@ -49,10 +49,12 @@ This will be very easy and you will develop basic understanding of how ML proble
 2.  If you chose python like I did, you have to install many dependencies time to time. It is better to work using Anaconda, it is if I have to give a very simple definition collection of many libraries of Python and R. So you don't have to install different libraries individually later. Here is the [link](https://www.continuum.io/downloads) to download it and get started. You might want to invest some time into learning what virtual environments are if you are going to use it. 
 3. *Where do I code?* 
 We write our code in a jupyter notebook, I will be sharing a link to a video series later that will get you started. You can simply start from terminal by writing. 
-```
-jupyter notebook
-```
-After this a browser tab will open and you can create a new notebook and start using it.
+	
+       ```
+	   jupyter notebook
+	```
+ 
+ After this a browser tab will open and you can create a new notebook and start using it.
 
 *Things I learned while solving this problem*
 
@@ -64,12 +66,13 @@ After this a browser tab will open and you can create a new notebook and start u
 	   import pandas as pd
 	   s = pd.Series(data, index=index)  
        ```
- + This is how you initialize a Series where *data* is the data you want to feed in it. Where as for Dataframes you use something like this.
+  + This is how you initialize a Series where *data* is the data you want to feed in it. Where as for Dataframes you use something like this.
   
   	```
   		df = pd.DataFrame(d)
   	```
-   where *d* can be a collection of Series.
+   
+ where *d* can be a collection of Series.
 
  You might want to read more about Pandas from this official 10 minutes [introduction](http://pandas.pydata.org/pandas-docs/version/0.15.2/10min.html)  and also about [data structures](https://pandas.pydata.org/pandas-docs/stable/dsintro.html).
 
