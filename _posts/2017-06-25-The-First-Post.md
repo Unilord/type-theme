@@ -27,10 +27,10 @@ I realized that theoretical approach was not my thing. I liked to learn things b
 
 The first thing you will read about Machine learning probably in every course or every article would be that there are mainly two kinds of problems. These are namely:
 
-  -  Supervised Learning
-    + For now we will keep it very short so you don't clutter your mind with things irrelevant. In this kind of learning you are usually given a data, an input and you are also provided with what output you are supposed to evaluate. 
-    + This is like you are given some medical data and on the basis of this information you have to tell for an example what kind of diabetes your patient is suffering from.
-    + This is further of two kinds :
+  - Supervised Learning:
+     + For now we will keep it very short so you don't clutter your mind with things irrelevant. In this kind of learning you are usually given a data, an input and you are also provided with what output you are supposed to evaluate. 
+     + This is like you are given some medical data and on the basis of this information you have to tell for an example what kind of diabetes your patient is suffering from.
+     + This is further of two kinds :
        1. Classification(Categorical/Qualitative) - In this, you divide your output in different categories. So you *classified it into one of the categories*. Like in the above mentioned diabetes example, your answer would be Type 1 or Type 2.
        2. Regression(Quantitative) - In this, on the basis of your data you have to provide an absolute number, *a quantity*. Like predicting price of a house which can vary from 10k to 50k depending upon
 
@@ -50,7 +50,8 @@ This will be very easy and you will develop basic understanding of how ML proble
     We write our code in a jupyter notebook, I will be sharing a link to a video series later that will get you started. You can simply start from terminal by writing.
 	
      ```
-	 jupyter notebook ```
+	 jupyter notebook 
+     ```
 
       After this a browser tab will open and you can create a new notebook and start using it.
 
@@ -58,18 +59,18 @@ This will be very easy and you will develop basic understanding of how ML proble
 
  1. I just read about some very basic libraries and their common functions but it really provided me a very nice momentum and it generated a curiosity to learn more about the field. I also studied some Maths in the process which was very exciting.
  2.  I started with reading about **Pandas** which is a python data manipulation library. It has lot of basic and complicated functions, though I have covered only easier ones for now. 
-  + You should start with reading about pandas data structures which are namely Series and Dataframe. Former is just like a 1D array while latter is a 2D. 
-    ```
+     + You should start with reading about pandas data structures which are namely Series and Dataframe. Former is just like a 1D array while latter is a 2D. 
+       ```
 	   import pandas as pd
 	   s = pd.Series(data, index=index)
        ```
-  + This is how you initialize a Series where *data* is the data you want to feed in it. Where as for Dataframes you use something like this.
-  	```
+     + This is how you initialize a Series where *data* is the data you want to feed in it. Where as for Dataframes you use something like this.
+  	   ```
   		df = pd.DataFrame(d)
-  	```
- where *d* can be a collection of Series.
-
-      You might want to read more about Pandas from this official 10 minutes [introduction](http://pandas.pydata.org/pandas-docs/version/0.15.2/10min.html)  and also about [data structures](https://pandas.pydata.org/pandas-docs/stable/dsintro.html).
+  	   ```
+       where *d* can be a collection of Series.
+    
+       You might want to read more about Pandas from this official 10 minutes [introduction](http://pandas.pydata.org/pandas-docs/version/0.15.2/10min.html)  and also about [data structures](https://pandas.pydata.org/pandas-docs/stable/dsintro.html).
 
  3.  I then moved forward to *Matplotlib* which is a python 2D plotting library. Machine Learning is just applied Mathematics hence situations will come where you have to visualize your data or at least plot one variable w.r.t. other. For all this *Matplotlib comes in handy*. You will realize with time that knowing your data is an important phase while you are solving a problem. Without it, trying to build a model will be very difficult.
  
