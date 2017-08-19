@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dare to know"
-date: 2017-26-07
+date: 2017-06-25
 ---
 
 
